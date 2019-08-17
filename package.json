@@ -1,0 +1,18 @@
+{
+  "name": "chatbot",
+  "version": "1.0.0",
+  "description": "Chatbot to chat",
+  "main": "index.js",
+  "engines": {
+    "node": "10.16.0",
+    "npm": "6.10.3"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Jeyanth",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
