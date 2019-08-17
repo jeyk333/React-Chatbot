@@ -13,6 +13,9 @@
   "author": "Jeyanth",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
+    "body-parser": "^1.19.0",
+    "dialogflow": "^0.10.3",
+    "express": "^4.17.1",
+    "structjson": "^1.0.1"
   }
 }
