@@ -6,7 +6,7 @@ const QuickReply = props => {
       <a
         href="#"
         style={{ margin: 3 }}
-        className="btn-floating btn-large waves-effect waves-light red"
+        className="btn-floating btn-large waves-effect waves-light darkblue"
         onClick={event => {
           props.click(
             event,
@@ -22,8 +22,8 @@ const QuickReply = props => {
     return (
       <a
         href={props.reply.structValue.fields.link.stringValue}
-        style={{ margin: 3 }}
-        className="btn-floating btn-large waves-effect waves-light red"
+        className="btn-floating btn-large waves-effect waves-light"
+        style={{ background: "darkblue", margin: 3 }}
       >
         {props.reply.structValue.fields.text.stringValue}
       </a>
