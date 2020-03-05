@@ -8,7 +8,7 @@ module.exports = app => {
     const agent = new WebhookClient({ request: req, response: res });
 
     function pikachu(agent) {
-      agent.add("Welcome to Pikachu fulfillment");
+      agent.add("I am Pikachu");
     }
 
     async function learn(agent) {

@@ -192,7 +192,8 @@ class Chatbot extends Component {
             <div style={{ overflow: "hidden" }}>
               <div className="col s2">
                 <a
-                  className="btn-floating btn-large waves-effect waves-light red"
+                  className="btn-floating btn-large waves-effect waves-light"
+                  style={{ background: "darkblue" }}
                   href="#"
                 >
                   {message.speaks}
@@ -269,8 +270,10 @@ class Chatbot extends Component {
           }}
         >
           <nav>
-            <div className="nav-wrapper">
-              <a className="brand-logo">Chatbot</a>
+            <div className="nav-wrapper" style={{ background: "blue" }}>
+              <a className="brand-logo" style={{ marginLeft: 10 }}>
+                Talk to me
+              </a>
               <ul id="nav-mobile" className="right hide-on-med-and-down">
                 <li>
                   <a href="#" onClick={this.hide}>
@@ -321,8 +324,10 @@ class Chatbot extends Component {
           }}
         >
           <nav>
-            <div className="nav-wrapper">
-              <a className="brand-logo">Chatbot</a>
+            <div className="nav-wrapper" style={{ background: "blue" }}>
+              <a className="brand-logo" style={{ marginLeft: 10 }}>
+                Talk to me
+              </a>
               <ul id="nav-mobile" className="right hide-on-med-and-down">
                 <li>
                   <a href="#" onClick={this.show}>

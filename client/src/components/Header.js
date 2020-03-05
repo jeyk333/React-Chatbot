@@ -4,9 +4,9 @@ import { Link } from "react-router-dom";
 const Header = () => {
   return (
     <nav>
-      <div className="nav-wrapper">
-        <Link to="/" className="brand-logo">
-          IT courses
+      <div className="nav-wrapper" style={{ background: "blue" }}>
+        <Link to="/" className="brand-logo" style={{ marginLeft: "10px" }}>
+          Pikachu Shop
         </Link>
         <ul id="nav-mobile" className="right hide-on-med-and-down">
           <li>

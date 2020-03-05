@@ -3,7 +3,7 @@ import React from "react";
 const ItemList = () => {
   return (
     <div>
-      <h2>List of Items</h2>
+      <h2>No items to list</h2>
     </div>
   );
 };
