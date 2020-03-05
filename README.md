@@ -37,7 +37,7 @@ npm start
 ```
 
 ### Dependencies Used
-For Backend,
+In Backend,
 - actions-on-google - ^2.12.0
 - body-parser - ^1.19.0
 - dialogflow - ^0.10.3
@@ -47,7 +47,7 @@ For Backend,
 - nodemon - ^1.19.1
 - structjson - ^1.0.1
 
-For Frontend,
+In Frontend,
 - axios - ^0.19.0
 - materialize-css - ^1.0.0
 - react - ^16.9.0
